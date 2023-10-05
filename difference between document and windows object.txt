@@ -1,0 +1,19 @@
+WHAT IS THE DIFFERENCE BETWEEN DOCUMENT ANDWINDOW OBJECT?
+
+WINDOW OBJECT:
+In every environment of JavaScript, there is a Global object. And the variables that are created inside this global object, represent the real properties of that particular object.The functions inside the global object represent the methods of the global object.
+
+Inside the browser environment, the global object is known as the Window Object, which represents the browser window. This browser window contains a web page. This is known as a window object in JavaScript.
+The window object comes to the top position in the list of objects of the DOM(Document Object Model) hierarchy.
+
+The window object in JavaScript will display the contents of any webpage like all the HTML tags, data, links, images, etc.
+Whenever we surf a browser and a webpage appears on the screen, it displays the contents of the document on the window screen, where the creation of the window object takes place.
+
+               
+
+DOCUMENT OBJECT:
+            DOM stands for the Document Object Model in javascript. It works as a application programming interface for web documents (HTML and XML documents).
+Each web page resides inside a browser window that can be considered an object, and the DOM lets you access and manipulates web page content using JavaScript
+Moreover, it is a "tree structure" representation built by the browser that allows the HTML structure to be easily accessed by programming languages such as javascript to change or manipulate the document structure, style, and content.
+It represents the document as nodes and objects in a tree structure.
+
